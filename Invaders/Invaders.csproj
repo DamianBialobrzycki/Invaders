@@ -70,10 +70,14 @@
   <ItemGroup>
     <Compile Include="Model\Direction.cs" />
     <Compile Include="Model\Invader.cs" />
+    <Compile Include="Model\InvadersModel.cs" />
     <Compile Include="Model\InvaderType.cs" />
     <Compile Include="Model\Player.cs" />
     <Compile Include="Model\Ship.cs" />
+    <Compile Include="Model\ShipChangedEventArgs.cs" />
     <Compile Include="Model\Shot.cs" />
+    <Compile Include="Model\ShotMovedEventArgs.cs" />
+    <Compile Include="Model\StarChangedEventArgs.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

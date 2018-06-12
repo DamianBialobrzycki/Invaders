@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Windows;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Invaders.Model
 {
-    class Ship
+    abstract class Ship
     {
         public Point Location { get; protected set; }
 
